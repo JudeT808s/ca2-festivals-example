@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from 'axios';
 
-const Show = () => {
+const Edit = () => {
     const { id } = useParams();
     const [festival, setFestival] = useState(null);
 
@@ -28,4 +28,4 @@ const Show = () => {
         </>  
     );
 }
-export default Show
+export default Edit
